@@ -39,4 +39,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build zeeshan-reactupdated.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build zeeshan-reactnewyarn.surge.sh --token ${{ secrets.SURGE_TOKEN }}
